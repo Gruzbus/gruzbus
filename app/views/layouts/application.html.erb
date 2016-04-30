@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Грузоперевозки Запорожье</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Грузоперевозки Запорожье. Мувинговая компания Грузбус оказывает грузоперевозки по Запорожью недорого, свои грузчики. Тел. +38 (097) 759-68-21">
+  <meta name="keywords" content="грузоперевозки Запорожье, грузоперевозки недорого, перевозка грузов, офисный переезд, грузоперевозки с грузчиками, цены на грузоперевозки в Запорожье">
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+</head>
+
+<%= stylesheet_link_tag "freight_styles" %>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="10">
+  <%= render 'layouts/header' %>
+  <div class="jumbotron text-center">
+    <h1>Грузбус</h1>
+    <br>
+    <p>Мувинговая компания Грузбус для Вашего комфорта, экономии времени и средств!</p>
+  </div>
+
+  <!-- Container (About Section) -->
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>О нашей компании</h2>
+        <p>Жизнь не стоит на месте, вы всегда находитесь в движении. Покупка мебели, бытовой техники, расширение собственного бизнеса, закупка торгового оборудования, ремонт, переезд в новый дом или офис, список бесконечен. Именно поэтому так важно иметь под рукой хорошего добросовестного и опытного помощника в сфере грузоперевозок. Многолетний опыт, полученный реализацией заказов любой сложности нашими сотрудниками, гарантирует качество предоставляемых услуг.</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="center">
+          <%= image_tag("movers_sofa.png", :class => "img-rounded img-res ponsive", :alt => "грузоперевозки недорого") %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-grey">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="center">
+          <%= image_tag("movers_boxes.png", :class => "img-rounded img-responsive", :alt => "грузоперевозки в Запорожье") %>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <h2 class="priorities">Наши приоритеты:</h2>
+        <p>- Пунктуальность</p>
+        <p>- Аккуратность</p>
+        <p>- Исполнительность</p>
+        <p>- Быстрота</p>
+        <p><strong>Доверяйте свой груз профессионалам.</strong> Для максимально чёткого подбора авто и расчёта стоимости услуг  необходимо связаться с диспетчером-консультантом. Индивидуальный подход к поставленной задаче делает тарифы прозрачными, что немаловажно в сфере грузоперевозок.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Transportation) -->
+  <div id="transport" class="container-fluid text-center">
+    <h2>Транспорт</h2>
+    <h4>Усреднённые цены на услуги</h4>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <%= image_tag("fiat_ducato.png", :alt => "Грузоперевозки вещей") %>
+          <div class="caption">
+            <h3>Fiat Dukato до 1,5 тонн. 9 кубов (Мебельный)</h3>
+            <p>Кузов цельнометаллический. Длинна 3,30 Ширина 1,65 Высота 1,80. Отличное авто для небольшого переезда(до 1 комнатной квартиры), доставки мебели, бытовой техники. <strong>От 80 грн/час.</strong> Межгород 4.5 грн/км.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <%= image_tag("citroen.png", :alt => "Квартирный переезд") %>
+            <div class="caption">
+              <h3>Citroen Jumper до 2,5 тонн. 10 кубов (Мебельный)</h3>
+              <p>Кузов цельнометаллический. Длинна 3, Ширина 1,85 Высота 1,85. Отличное авто для небольшого переезда (До 1 комнатной квартиры), доставки мебели, бытовой техники. <strong>От 80 грн/час.</strong> Межгород 4.5 грн/км.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <%= image_tag("gazel.png", :alt => "Грузоперевозки Газель в Запорожье") %>
+            <div class="caption">
+              <h3>Газель (кузов тент) до 1,5 тонн. (Мебельный)</h3>
+              <p>Длинна 4,10 ,Ширина 1,95 , Высота 2,25. Переезд 2х комнатной квартиры. Высоких мебельных стенок, высоких холодильников. <strong>От 120 грн/час.</strong> Межгород 6 грн/км.</p>
+              <br>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <%= image_tag("mersedes.png", :alt => "Машина для переезда") %>
+          <div class="caption">
+            <h3>Mercedes (кузов тент) до 4 тонн. (Mебельный)</h3>
+            <p>Длинна 6, Высота 2,30 Ширина 2,30. Переезд 3х комнатной квартиры. <strong>От 150 грн/час.</strong> Межгород 8 грн/км.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <%= image_tag("man.png", :alt => "Автомобильные грузовые перевозки") %>
+          <div class="caption">
+            <h3>MAN гидроборт (кузов будка) до 5ти тонн. 36 кубов.</h3>
+            <p>Промышленные перевозки, услуги гидроборта. <strong>От 200 грн/час.</strong> Межгород 10грн/км.</p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Movers Section) -->
+  <div id="movers" class="container-fluid bg-grey">
+    <h2 class="text-center">Грузчики</h2>
+    <h4 class="text-center">Услуги только опытных грузчиков!</h4>
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="movers-actions">
+          <li>Любые погрузочно/разгрузочные работы</li>
+          <li>Фуры, пианино, сейфы, рояли, мебель, упаковка, сборка/разборка</li>
+          <li>Такелажные работы с применением спец. приспособлений</li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <ul class="movers-actions">
+          <li>Подъём строительных материалов, услуги стропальщиков</li>
+          <li>От 1го человека до целой слаженной бригады</li>
+          <li><strong>От 40 грн/час/чел.</strong> Подборный расчёт производит диспетчер</li>
+        </ul>
+      </div>
+    </div>
+    </br>
+    <p class="text-center">Ответственность и адекватность гарантируем.</p>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid">
+    <h2 class="text-center">Контакты</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p><span class="glyphicon glyphicon-map-marker"></span> Запорожье, Украина</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +38 (066) 309-95-54</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +38 (093) 139-77-67</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +38 (097) 759-68-21</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> gruzbuz@gmail.com</p>
+        <a href="http://vk.com/tpzpperevoz" target="_blank">
+          <img src="/assets/vk3.png" style="width:128px; height:34px; margin-bottom: 10px;">
+        </a>
+      </div>
+
+      <div class="col-sm-7">
+        <p>Вы можете оставить нам комментарий заполнив форму</p>
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Имя" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="E-mail" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Комментарий" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Отослать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Set height and width with CSS -->
+  <div id="googleMap" style="height:400px;width:100%;"></div>
+  <!-- Add Google Maps -->
+  <script src="//maps.googleapis.com/maps/api/js"></script>
+  <script>
+  var myCenter = new google.maps.LatLng(47.850722, 35.153352);
+
+  function initialize() {
+  var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+  var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+  marker.setMap(map);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+
+  <%= render 'layouts/footer' %>
+
+</body>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+  // Prevent default anchor click behavior
+  event.preventDefault();
+
+  // Store hash
+  var hash = this.hash;
+
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  });
+})
+</script>
+
+</html>
