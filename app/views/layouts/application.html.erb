@@ -19,7 +19,7 @@
   <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 </head>
 
-<%= stylesheet_link_tag "freight_styles" %>
+ <%= stylesheet_link_tag 'gruzbus_styles' %>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="10">
   <%= render 'layouts/header' %>
@@ -155,7 +155,7 @@
         <p><span class="glyphicon glyphicon-phone"></span> +38 (097) 759-68-21</p>
         <p><span class="glyphicon glyphicon-envelope"></span> gruzbuz@gmail.com</p>
         <a href="http://vk.com/tpzpperevoz" target="_blank">
-          <img src="/assets/vk.png" style="width:128px; height:34px; margin-bottom: 10px;">
+          <%= image_tag("vk.png", :style => "width:128px; height:34px; margin-bottom: 10px;") %>
         </a>
       </div>
 
