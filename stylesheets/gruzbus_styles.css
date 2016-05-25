@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url(/images/movers_main.png);
+  background-image: url(/assets/movers_main.png);
   background-size: cover;
   color: #fff;
   padding: 100px 25px;
@@ -13,7 +13,6 @@
 
 .container-fluid {
   padding: 40px 50px;
-  max-width: 1300px;
 }
 
 .navbar {
