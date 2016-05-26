@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
 
   root 'pages#home'
-  get '/google173528e07608649e', to: 'pages#google173528e07608649e'
-  get '/yandex_4106effd06f90820', to: 'pages#yandex_4106effd06f90820'
-
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
