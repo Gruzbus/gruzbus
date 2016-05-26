@@ -13957,3 +13957,365 @@ ActionController::RoutingError (No route matches [GET] "/404.shtml"):
   /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
 
 
+I, [2016-05-26T01:35:34.790715 #671341]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 01:35:34 +0300
+I, [2016-05-26T01:35:34.805475 #671341]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T01:35:34.824042 #671341]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.0ms)
+I, [2016-05-26T01:35:34.836086 #671341]  INFO -- :   Rendered layouts/_header.html.erb (1.4ms)
+I, [2016-05-26T01:35:34.854237 #671341]  INFO -- :   Rendered layouts/_footer.html.erb (1.2ms)
+I, [2016-05-26T01:35:34.854563 #671341]  INFO -- :   Rendered layouts/_googlemap.html.erb (4.4ms)
+I, [2016-05-26T01:35:34.855939 #671341]  INFO -- : Completed 200 OK in 50ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T02:31:43.203150 #830638]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 02:31:43 +0300
+I, [2016-05-26T02:31:43.213045 #830638]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T02:31:43.237578 #830638]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.1ms)
+I, [2016-05-26T02:31:43.243593 #830638]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+I, [2016-05-26T02:31:43.248583 #830638]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2016-05-26T02:31:43.248786 #830638]  INFO -- :   Rendered layouts/_googlemap.html.erb (2.5ms)
+I, [2016-05-26T02:31:43.249426 #830638]  INFO -- : Completed 200 OK in 36ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T05:09:28.125199 #184257]  INFO -- : Started GET "/robots.txt" for 195.191.25.194 at 2016-05-26 05:09:28 +0300
+F, [2016-05-26T05:09:28.135235 #184257] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T05:09:48.064589 #184257]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 05:09:48 +0300
+I, [2016-05-26T05:09:48.074943 #184257]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T05:09:48.120607 #184257]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.5ms)
+I, [2016-05-26T05:09:48.127282 #184257]  INFO -- :   Rendered layouts/_header.html.erb (0.5ms)
+I, [2016-05-26T05:09:48.131169 #184257]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2016-05-26T05:09:48.131263 #184257]  INFO -- :   Rendered layouts/_googlemap.html.erb (2.0ms)
+I, [2016-05-26T05:09:48.131910 #184257]  INFO -- : Completed 200 OK in 57ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T08:40:22.116118 #720999]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 08:40:22 +0300
+I, [2016-05-26T08:40:22.131426 #720999]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T08:40:22.158206 #720999]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.0ms)
+I, [2016-05-26T08:40:22.164119 #720999]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+I, [2016-05-26T08:40:22.168207 #720999]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2016-05-26T08:40:22.168342 #720999]  INFO -- :   Rendered layouts/_googlemap.html.erb (2.0ms)
+I, [2016-05-26T08:40:22.169155 #720999]  INFO -- : Completed 200 OK in 37ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T09:37:11.480879 #869734]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 09:37:11 +0300
+I, [2016-05-26T09:37:11.505380 #869734]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T09:37:11.533224 #869734]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.1ms)
+I, [2016-05-26T09:37:11.539044 #869734]  INFO -- :   Rendered layouts/_header.html.erb (0.6ms)
+I, [2016-05-26T09:37:11.543774 #869734]  INFO -- :   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2016-05-26T09:37:11.543974 #869734]  INFO -- :   Rendered layouts/_googlemap.html.erb (2.2ms)
+I, [2016-05-26T09:37:11.545026 #869734]  INFO -- : Completed 200 OK in 39ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T10:16:14.841620 #869734]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 10:16:14 +0300
+I, [2016-05-26T10:16:14.967648 #869734]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T10:16:15.012494 #869734]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.2ms)
+I, [2016-05-26T10:16:15.014865 #869734]  INFO -- :   Rendered layouts/_header.html.erb (0.1ms)
+I, [2016-05-26T10:16:15.016537 #869734]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2016-05-26T10:16:15.018614 #869734]  INFO -- :   Rendered layouts/_googlemap.html.erb (2.4ms)
+I, [2016-05-26T10:16:15.019557 #869734]  INFO -- : Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T10:16:17.059582 #869734]  INFO -- : Started GET "/favicon.ico" for 195.191.25.194 at 2016-05-26 10:16:17 +0300
+F, [2016-05-26T10:16:17.062206 #869734] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T13:03:33.811366 #307786]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 13:03:33 +0300
+I, [2016-05-26T13:03:33.828011 #307786]  INFO -- : Processing by PagesController#home as */*
+I, [2016-05-26T13:03:33.855213 #307786]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.1ms)
+I, [2016-05-26T13:03:33.865468 #307786]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2016-05-26T13:03:33.879383 #307786]  INFO -- :   Rendered layouts/_footer.html.erb (0.8ms)
+I, [2016-05-26T13:03:33.879589 #307786]  INFO -- :   Rendered layouts/_googlemap.html.erb (6.8ms)
+I, [2016-05-26T13:03:33.880524 #307786]  INFO -- : Completed 200 OK in 52ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T13:03:34.483963 #307786]  INFO -- : Started GET "/x.txt" for 195.191.25.194 at 2016-05-26 13:03:34 +0300
+F, [2016-05-26T13:03:34.485252 #307786] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/x.txt"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T13:03:34.653952 #307786]  INFO -- : Started GET "/404.shtml" for 195.191.25.194 at 2016-05-26 13:03:34 +0300
+F, [2016-05-26T13:03:34.655025 #307786] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/404.shtml"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T13:07:19.731460 #307786]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 13:07:19 +0300
+I, [2016-05-26T13:07:19.741572 #307786]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T13:07:19.750359 #307786]  INFO -- :   Rendered pages/home.html.erb within layouts/application (2.7ms)
+I, [2016-05-26T13:07:19.753357 #307786]  INFO -- :   Rendered layouts/_header.html.erb (0.7ms)
+I, [2016-05-26T13:07:19.758185 #307786]  INFO -- :   Rendered layouts/_footer.html.erb (0.7ms)
+I, [2016-05-26T13:07:19.758401 #307786]  INFO -- :   Rendered layouts/_googlemap.html.erb (2.7ms)
+I, [2016-05-26T13:07:19.759120 #307786]  INFO -- : Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T15:23:25.794876 #634602]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 15:23:25 +0300
+I, [2016-05-26T15:23:25.803383 #634602]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T15:23:25.817919 #634602]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.7ms)
+I, [2016-05-26T15:23:25.821869 #634602]  INFO -- :   Rendered layouts/_header.html.erb (0.5ms)
+I, [2016-05-26T15:23:25.824836 #634602]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2016-05-26T15:23:25.824959 #634602]  INFO -- :   Rendered layouts/_googlemap.html.erb (1.5ms)
+I, [2016-05-26T15:23:25.825535 #634602]  INFO -- : Completed 200 OK in 22ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T15:48:01.624172 #634602]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 15:48:01 +0300
+I, [2016-05-26T15:48:01.634105 #634602]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T15:48:01.639730 #634602]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.6ms)
+I, [2016-05-26T15:48:01.642164 #634602]  INFO -- :   Rendered layouts/_header.html.erb (0.1ms)
+I, [2016-05-26T15:48:01.644096 #634602]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2016-05-26T15:48:01.644245 #634602]  INFO -- :   Rendered layouts/_googlemap.html.erb (0.5ms)
+I, [2016-05-26T15:48:01.644932 #634602]  INFO -- : Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T15:48:01.731945 #634602]  INFO -- : Started GET "/favicon.ico" for 195.191.25.194 at 2016-05-26 15:48:01 +0300
+F, [2016-05-26T15:48:01.733623 #634602] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T15:48:01.795859 #634602]  INFO -- : Started GET "/favicon.ico" for 195.191.25.194 at 2016-05-26 15:48:01 +0300
+F, [2016-05-26T15:48:01.798395 #634602] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T15:48:02.117951 #634602]  INFO -- : Started GET "/favicon.ico" for 195.191.25.194 at 2016-05-26 15:48:02 +0300
+F, [2016-05-26T15:48:02.119594 #634602] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T15:48:02.121054 #634602]  INFO -- : Started GET "/favicon.ico" for 195.191.25.194 at 2016-05-26 15:48:02 +0300
+F, [2016-05-26T15:48:02.122402 #634602] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T19:24:53.072811 #684779]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 19:24:53 +0300
+I, [2016-05-26T19:24:53.272042 #684779]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T19:24:53.367396 #684779]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.0ms)
+I, [2016-05-26T19:24:53.397746 #684779]  INFO -- :   Rendered layouts/_header.html.erb (0.4ms)
+I, [2016-05-26T19:24:53.400617 #684779]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2016-05-26T19:24:53.400719 #684779]  INFO -- :   Rendered layouts/_googlemap.html.erb (1.5ms)
+I, [2016-05-26T19:24:53.401278 #684779]  INFO -- : Completed 200 OK in 90ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T19:24:56.095127 #684779]  INFO -- : Started GET "/favicon.ico" for 195.191.25.194 at 2016-05-26 19:24:56 +0300
+F, [2016-05-26T19:24:56.096471 #684779] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T19:25:55.601422 #684779]  INFO -- : Started GET "/robots.txt" for 195.191.25.194 at 2016-05-26 19:25:55 +0300
+F, [2016-05-26T19:25:55.607156 #684779] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
+I, [2016-05-26T19:26:29.677402 #684779]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 19:26:29 +0300
+I, [2016-05-26T19:26:29.684202 #684779]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T19:26:29.688673 #684779]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.2ms)
+I, [2016-05-26T19:26:29.689928 #684779]  INFO -- :   Rendered layouts/_header.html.erb (0.1ms)
+I, [2016-05-26T19:26:29.691402 #684779]  INFO -- :   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2016-05-26T19:26:29.691539 #684779]  INFO -- :   Rendered layouts/_googlemap.html.erb (0.6ms)
+I, [2016-05-26T19:26:29.692030 #684779]  INFO -- : Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T19:30:56.225763 #684779]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 19:30:56 +0300
+I, [2016-05-26T19:30:56.233026 #684779]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T19:30:56.238601 #684779]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.3ms)
+I, [2016-05-26T19:30:56.240416 #684779]  INFO -- :   Rendered layouts/_header.html.erb (0.1ms)
+I, [2016-05-26T19:30:56.242355 #684779]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2016-05-26T19:30:56.242567 #684779]  INFO -- :   Rendered layouts/_googlemap.html.erb (0.5ms)
+I, [2016-05-26T19:30:56.243332 #684779]  INFO -- : Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T20:49:06.942584 #282763]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-26 20:49:06 +0300
+I, [2016-05-26T20:49:06.950934 #282763]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-26T20:49:06.965769 #282763]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.7ms)
+I, [2016-05-26T20:49:06.969884 #282763]  INFO -- :   Rendered layouts/_header.html.erb (0.5ms)
+I, [2016-05-26T20:49:06.973035 #282763]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2016-05-26T20:49:06.973160 #282763]  INFO -- :   Rendered layouts/_googlemap.html.erb (1.6ms)
+I, [2016-05-26T20:49:06.973701 #282763]  INFO -- : Completed 200 OK in 23ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+I, [2016-05-26T20:49:08.142479 #282763]  INFO -- : Started GET "/favicon.ico" for 195.191.25.194 at 2016-05-26 20:49:08 +0300
+F, [2016-05-26T20:49:08.143841 #282763] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  /opt/passenger/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+  /opt/passenger/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+  /opt/passenger/lib/phusion_passenger/request_handler.rb:455:in `block (3 levels) in start_threads'
+
+
