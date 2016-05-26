@@ -14533,3 +14533,10 @@ I, [2016-05-27T00:19:52.558958 #810805]  INFO -- :   Rendered layouts/_header.ht
 I, [2016-05-27T00:19:52.561974 #810805]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
 I, [2016-05-27T00:19:52.562087 #810805]  INFO -- :   Rendered layouts/_googlemap.html.erb (1.6ms)
 I, [2016-05-27T00:19:52.562561 #810805]  INFO -- : Completed 200 OK in 23ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+I, [2016-05-27T01:47:01.991681 #131626]  INFO -- : Started GET "/" for 195.191.25.194 at 2016-05-27 01:47:01 +0300
+I, [2016-05-27T01:47:02.000072 #131626]  INFO -- : Processing by PagesController#home as HTML
+I, [2016-05-27T01:47:02.014163 #131626]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.7ms)
+I, [2016-05-27T01:47:02.022182 #131626]  INFO -- :   Rendered layouts/_header.html.erb (0.4ms)
+I, [2016-05-27T01:47:02.025118 #131626]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2016-05-27T01:47:02.025232 #131626]  INFO -- :   Rendered layouts/_googlemap.html.erb (1.4ms)
+I, [2016-05-27T01:47:02.025828 #131626]  INFO -- : Completed 200 OK in 26ms (Views: 18.1ms | ActiveRecord: 0.0ms)
